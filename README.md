@@ -17,6 +17,10 @@ would result in improving his playstyle.
 Before you run the app, you will have to create database, preferably using postgresql.
 DDL script for tables, indexes and view are located in a file [LolSummonerStatsDDL](https://github.com/Thenessar/LolSummonerStats/blob/main/LolSummonerStatsDDL.sql).
 
+Secondly, you will have to edit database.py and tell the app how to connect to your database.
+
+Finally, head to the https://developer.riotgames.com/ to generate your own API key and save it in riot_api.py file.
+
 Sample player report (created in PowerBI desktop) can be found [here](https://github.com/Thenessar/LolSummonerStats/blob/main/sample_player_report.pdf).
 
 ## API Documentation
